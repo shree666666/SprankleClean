@@ -16,7 +16,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        // Brand palette
         teal: {
           DEFAULT: "#0D5C63",
           50: "#E6F3F4",
@@ -55,7 +54,6 @@ module.exports = {
         offwhite: {
           DEFAULT: "#FAFAFA",
         },
-        // shadcn/ui semantic tokens
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -93,6 +91,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-poppins)", "system-ui", "sans-serif"],
         poppins: ["var(--font-poppins)", "sans-serif"],
+        heading: ["var(--font-heading)", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+Disallow: /admin/*
+
+# Host
+Host: https://sparkleclean.example
+
+# Sitemaps
+Sitemap: https://sparkleclean.example/sitemap.xml

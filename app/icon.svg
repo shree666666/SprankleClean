@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D6E6E"/>
+      <stop offset="1" stop-color="#1A1A2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- 4-point sparkle -->
+  <path d="M32 12 L34.6 26.4 L49 32 L34.6 37.6 L32 52 L29.4 37.6 L15 32 L29.4 26.4 Z"
+        fill="#F5A623"/>
+  <!-- small accent star -->
+  <path d="M48 14 L49.3 18 L53 19.3 L49.3 20.6 L48 24.5 L46.7 20.6 L43 19.3 L46.7 18 Z"
+        fill="#F9F9F6" opacity="0.85"/>
+</svg>
